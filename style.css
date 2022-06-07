@@ -7,7 +7,6 @@
 
 h1{
     font-family:  "mi fuente";
-    color: blueviolet;
     text-align: center;
     text-decoration:underline;
 }
@@ -35,26 +34,33 @@ h2{
 
 }
 
-#menu{
+/* #menu{
     border-style: outset;
     display:inline
-}
+} */
 
 #menu :hover{
     color: rgb(248, 10, 10);
+    text-transform:uppercase;
 }
 
-#redes{
-    display: inline;
-    border-style: outset;
+li :hover{
+    transition-duration: 1s;
+
+}
+
+/* #redes{
 margin-left: 150px;
-    
+} */
+
+#redes :hover{
+    color: rgb(248, 10, 10);
 }
 
-
+/* 
 body{
     background-color: white
-}
+} */
 
 #babyShower{
     display: inline;
@@ -92,19 +98,56 @@ body{
 }
 
 #pag1{
-    display: inline;
-    margin-left: 250px;
+    display: flex;
+    justify-content: center;
 }
+
 #pag2{
-    display: inline;
-    margin-left: 250px;
+    display: flex;
+    justify-content: center;
 }
 
 
 #pag3{
-    display: inline;
-    margin-left: 250px;
+    display: flex;
+    justify-content: center;
 }
+
+
+.cards :hover{
+    transition-duration: 1s;
+    width: 300px;
+    height: auto;
+
+}
+
+
+/* .card {
+	animation: card 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+@keyframes card {
+    0% {
+      transform: scale(0.5);
+    }
+    100% {
+      transform: scale(1);
+    }
+  } */
+
+
+/* .card{
+     animation: card 0.45s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@keyframes card{
+        0% {
+          transform: translateZ(0);
+        }
+        100% {
+          transform: translateZ(160px);
+        }
+} */
 
 #productos{
     display: inline;
@@ -132,12 +175,6 @@ body{
 
 }
 
-@media (max-width: 600px) {
-    .columna{
-        flex: 100%;
-
-    }
-}
 
 .clientes{
     width: 100%;
@@ -160,11 +197,7 @@ body{
 
 }
 
-@media (max-width: 600px) {
-    .columna{
-        flex: 100%;
-    }
-}
+
 
 
 
@@ -290,13 +323,6 @@ address{
     color: blueviolet;
 }
 
-
-
-
-
-body{
-    background-color: white;
-}
 
 
 
